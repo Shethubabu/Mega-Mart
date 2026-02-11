@@ -10,6 +10,7 @@ const App: React.FC = () => {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/Mega-Mart" element={<Home />} /> {/* ✅ Add this */}
         <Route path="/product/:id" element={<ProductDetails />} />
       </Routes>
     </BrowserRouter>
